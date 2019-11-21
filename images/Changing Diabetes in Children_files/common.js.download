@@ -1,0 +1,80 @@
+$(document).ready(function() {
+	
+	 $('.dropdown-toggle').dropdown();
+	 
+    //Navigation Related
+    //var index = 4;
+  /*  var base = $("base").attr("href");
+    var url = window.location.href;
+    var url_parts = url.split('/');
+    var main_url_val = url_parts[index];
+    var full_url_val = url.replace(base, '');
+    var full_url_val_id = full_url_val.replace(/\//g, '_');
+
+    $('.menuH a').filter(function() {
+        var current_link = $(this).attr('href');
+        return (current_link == main_url_val || (main_url_val == '' && current_link == '#'));
+    }).parent().addClass('inPage');
+
+    $('.separator a').filter(function() {
+        var current_link = $(this).attr('href');
+        return (current_link == main_url_val);
+    }).parent().parent().parent().addClass('inPage');
+
+    $('.menu li').removeClass('current');
+    $('.menu a').filter(function() {
+        var current_link = $(this).attr('href');
+        return (current_link == main_url_val);
+    }).parent().addClass('current');
+
+    $('.left-menu a').filter(function() {
+        var current_link = $(this).attr('href');
+        return (current_link == main_url_val);
+    }).parent().parent().parent().addClass('active');
+
+    $('#nev_start a').filter(function() {
+        var current_link = $(this).attr('href');
+        return (current_link == full_url_val);
+    }).parent().addClass('active');
+
+    $(window).bind("load", function() {
+        $("#" + full_url_val_id).click();
+    });
+	    $('#news-container').vTicker({
+        speed: 500,
+        pause: 5000,
+        animation: 'fade',
+        mousePause: true,
+        showItems: 3
+    });
+	  $('#pro-container').vTicker({
+        speed: 1500,
+        pause: 3000,
+        animation: 'fade',
+        mousePause: true,
+        showItems: 3
+    });
+	 if (main_url_val == 'supports#horizontalTab1' || main_url_val == 'supports#horizontalTab2' || main_url_val == 'supports#horizontalTab3' || main_url_val == 'supports#horizontalTab4') {
+        $('html,body').animate({scrollTop: 450}, 'fast');
+    }
+*/
+	
+    $(".topnav").accordion({
+        accordion: true,
+        speed: 500,
+        closedSign: '+',
+        openedSign: '-'
+    });
+
+
+  //  $('#horizontalTab').easyResponsiveTabs();
+    $('a').click(function() {
+        var hasHash = $(this).prop('hash');
+        $('#horizontalTab').find(hasHash).click();
+        if (hasHash == '#horizontalTab1' || hasHash == '#horizontalTab2' || hasHash == '#horizontalTab3' || hasHash == '#horizontalTab4') {
+            $('html,body').animate({scrollTop: 450}, 'fast');
+        }
+    });
+	
+   
+});

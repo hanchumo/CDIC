@@ -1,0 +1,740 @@
+**
+* Import all desired less files here
+*/
+/**
+*   Author Variables
+*/
+/*
+*   _typography.less
+*   Author Custom Variables
+*/
+/* line 47, C:\PradeepNovo\NovoMasterBranch\dev\styles\base\_breakpoint-overrides.less */
+.container {
+min-width: 290px;
+}
+p{
+/*font-size: 11px;*/
+font-size: 13px;
+color: #000;
+}
+@media (max-width: 767px) {
+/* line 52, C:\PradeepNovo\NovoMasterBranch\dev\styles\base\_breakpoint-overrides.less */
+.container {
+padding: 0 15px;
+}
+/* line 55, C:\PradeepNovo\NovoMasterBranch\dev\styles\base\_breakpoint-overrides.less */
+.hidden-xs {
+display: none !important;
+}
+/* line 58, C:\PradeepNovo\NovoMasterBranch\dev\styles\base\_breakpoint-overrides.less */
+.visible-xs {
+display: block !important;
+}
+}
+@media (min-width: 768px), print {
+/* line 64, C:\PradeepNovo\NovoMasterBranch\dev\styles\base\_breakpoint-overrides.less */
+.container {
+width: 965px;
+}
+}
+/**
+*   Import Lesshat Library
+*/
+/* line 17*/
+html body{color:#82786f;}
+html a {
+color: #c72127;
+font-size: 12px;  
+}
+html a:hover {
+text-decoration: underline;
+}
+/* line 19*/
+html a:hover,
+html a:focus,
+html a:visited {
+color: #c72127;
+}
+/* line 23*/
+html input:focus {
+border: 1px solid #c72127;
+outline: 0;
+}
+/* line 27*/
+html textarea:focus {
+border: 1px solid #c72127;
+outline: 0;
+}
+/* line 32*/
+html h1 {
+font-size: 14px;
+margin-bottom: 20px;
+color: #c72127;
+}
+html h2{
+color: #000;
+font-weight: normal;
+font-size: 14px;
+}    
+/* line 37*/
+html h4 {
+color: #000;
+font-weight: normal;
+font-size: 13px;  
+}
+html h5{
+	font-weight: normal;
+    font-size: 16px;
+    color: #000;
+    padding: 8px 0 7px;
+}   
+.novotext h5 b {
+    color: #c72127 !important;
+}
+html li{
+font-size: 12px;
+}    
+/* line 40*/
+html button.bs-customSelect {
+color: #c72127;
+}
+/* line 43*/
+html .multiselect-container > li > a > label {
+color: #c72127;
+}
+/* line 46*/
+html .multiselect-container > li > a:hover,
+html .multiselect-container > li > a:focus,
+html li.multiselect-all a:hover {
+background-color: #c72127;
+color: #ffffff;
+}
+/* line 52*/
+html input[type=text],
+html input[type=password],
+html input[type=search],
+html input.form_field_text {
+color: #c72127;
+}
+/* line 55*/
+html .form_button_submit {
+color: #c72127;
+}
+/* line 58*/
+html .nn-aqua {
+color: #c72127;
+}
+/* line 61*/
+html button {
+color: #c72127;
+}
+/* line 64*/
+html .text.section label {
+color: #000;
+}
+/* line 67*/
+html .nn-form h5 {
+color: #c72127;
+}
+/* line 70*/
+html .form-info {
+color: #c72127;
+}
+/* line 73*/
+html .form_leftcol label {
+color: #c72127;
+}
+/* line 79*/
+.block-title h2 {
+color: #c72127;
+}
+/* line 82*/
+.header .header-navigation .megamenu .secondary-link {
+background: none;
+color: #001965;
+display: block;
+background-position: left 9px;
+/*padding-left: 15px !important;*/
+font-size: 14px !important;
+}
+.header .header-navigation .megamenu .secondary-link:hover {
+    color: #003878;
+	font-weight:bold;
+}
+.header .header-navigation .main-nav li ul li a {
+    font-size: 14px;
+}
+.header .header-navigation .main-nav li:first-child {
+    padding-left: 0;
+}
+@media (max-width: 767px), print {
+.header .header-navigation .megamenu .secondary-link {
+background: p;
+/*margin-left: 10px;*/
+background-position: left 18px;
+}
+}    
+/* line 85*/
+.header .header-navigation .main-nav li ul li a {
+color: #001965;
+}
+.content-col .novotext a{
+color: #009fda;
+}
+.content-col .novotext a:visited{
+color: #009fda;
+}      
+.content-col .novotext a:hover{
+text-decoration: underline;
+}                        
+/* line 88*/
+.carousel-slide .carousel-slide-header h4,
+.carousel-slide .carousel-slide-header h5 {
+color: #000;
+}
+/* line 91*/
+.float-teaser .teaser-col h5 {
+color: #c72127;
+}
+/* line 94*/
+.breadcrumbs-header li > a.current {
+background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+color: #c72127;
+padding: 0;
+text-decoration: underline;
+}
+.breadcrumbs-header li > a{
+background: url("../images/global/nnhf_greyarrow.png") no-repeat scroll left 6px rgba(0, 0, 0, 0);
+color: #82786f;
+padding-left: 15px;
+}
+/* line 97*/
+.medium-contact-block .list-link {
+width: 100%;
+}
+/* line 100*/
+.medium-contact-block .list-link span {
+width: 100%;
+}
+/* line 103*/
+.medium-contact-block .list-link span {
+display: inline-block;
+}
+.list-link{
+background: none;
+}
+.list-link {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #009fda;
+}
+.list-link:hover {
+    text-decoration: none;
+    color: #009fda;
+}
+/* line 106*/
+.button {
+color: #c72127;
+}
+/* line 109*/
+.desktop-left-nav li a.current {
+color: #c72127;
+}
+/* line 112*/
+.pipeline_container .pipeline .fa-circle {
+color: #c72127;
+}
+/* line 115*/
+.pipeline_container .pipeline .fa-circle-o {
+color: #c72127;
+}
+/* line 118*/
+.block-title h4 {
+color: #c72127;
+}
+/* line 121*/
+.footer .footer-main h4 {
+color: #c72127;
+}
+/* line 124*/
+.hero-full-page .hero-info-box h4,
+.hero-full-page .hero-info-box h5 {
+color: #c72127;
+}
+/* line 127*/
+.blog-container .blogHeading,
+.blog-container .blogsubHeading {
+color: #c72127 !important;
+}
+/* line 130*/
+.blog-container .formatted-date,
+.blog-container .authorLink {
+color: #c72127;
+}
+/* line 133*/
+.medium-summary-block.min-pad .block-title h2 {
+color: #c72127;
+}
+/* line 136*/
+.medium-contact-block h5 {
+color: #c72127;
+}
+/* line 139*/
+.ralign {
+color: #c72127;
+}
+/* line 142*/
+.multiselect-container li a.multiselect-all label {
+color: #c72127;
+}
+/* line 145*/
+.right-jobvacancies-block .careers-header-padding,
+.right-jobvacancies-block .careers-summary-date {
+color: #c72127;
+}
+/* line 148*/
+.right-jobvacancies-block .explore-jobs .explore-jobs-btn {
+background: url("../images/thumbnails/job-right-arrow-dlpx.png") no-repeat #c72127;
+display: inline-block;
+padding: 5px 30px 5px 27px;
+color: #ffffff;
+border-radius: 15px;
+margin-top: 10px;
+margin-right: 0px;
+border: 0px;
+font-weight: normal;
+background-position: right 4px center;
+white-space: normal;
+width: 98%;
+}
+/* line 162*/
+.careers-department .vacanciesCountText {
+color: #c72127;
+}
+/* line 165*/
+.right-jobvacancies-block-rd .top-section,
+.right-jobvacancies-block-rd .job-updates {
+background: #c72127;
+}
+/* line 168*/
+.right-jobvacancies-block-rd .careers-summary-date,
+.right-jobvacancies-block-rd .explore-jobs .explore-jobs-btn {
+color: #c72127;
+}
+/* line 171*/
+.right-rail-teaser-col-job .down-arrow span {
+color: #c72127;
+}
+/* line 174*/
+.careers-jobagent-email-form .form_button_submit {
+background: #c72127;
+}
+/* line 177*/
+.careers-jobagent-email-form h5 {
+color: #c72127;
+}
+
+/* line 180*/
+.float-teaser-header-footer .float-teaser-header .container .block-title h2 {
+color: #c72127;
+}
+/* line 183*/
+.contact-novo .contact-block h3,
+.contact-novo .contact-block2 h3,
+.contact-us-form .fileUpload {
+color: #c72127;
+}
+/* line 186*/
+.small-contact-block h5 {
+color: #c72127;
+}
+/* line 189*/
+.contact-novo .help-contents .question:before {
+color: #c72127;
+}
+/* line 192*/
+.contact-us-form .form_button_submit {
+color: #c72127;
+}
+/* line 195*/
+.disclaimer .subscribe-button.form_button_submit {
+color: #c72127;
+}
+/* line 198*/
+.download-center-search-box .search-archive-input:focus {
+border: 1px solid #c72127;
+}
+/* line 201*/
+.site-search-form .site-search-input:focus {
+border: 1px solid #c72127;
+outline: 0 none;
+}
+/* line 205*/
+.hcp-login h2 {
+color: #c72127;
+}
+/* line 208*/
+.medium-summary-block h3 {
+color: #c72127;
+}
+/* line 211*/
+.hcp-forgot-password h2,
+.hcp-reset-password h2 {
+color: #c72127;
+}
+/* line 214*/
+.joblist-listing-search-box h3,
+.joblist-listing-search-box h6 {
+color: #c72127;
+}
+/* line 217*/
+.joblist-listing-search-form .joblist-search-table tbody tr td .joblist-row-heading {
+color: #c72127;
+}
+/* line 220*/
+.google-map #map-options form h3,
+.google-map #map-list .location h3 {
+color: #c72127;
+}
+/* line 223*/
+.event-listing .formatted-date {
+color: #c72127;
+}
+/* line 226*/
+.formatted-date + .event-caption {
+color: #c72127;
+}
+/* line 229*/
+.vertical-nav-header .vertical-nav-col-bottom h5 {
+color: #c72127;
+}
+/* line 232*/
+.small-calendar-block h5,
+.small-summary-block h5 {
+color: #c72127;
+font-weight: normal;
+}
+/* line 235*/
+.formatted-date {
+color: #c72127;
+}
+/* line 238*/
+.expandable-block .expandable-block-header h3 span {
+color: #c72127;
+}
+/* line 241*/
+.email-subscription-box h5,
+.email-subscription-box h6 {
+color: #c72127;
+}
+/* line 244*/
+.article-download p,
+.article-content h2 {
+color: #c72127;
+}
+/* line 247*/
+.pipeline-detail-container .pipeline-content a {
+color: #c72127;
+}
+/* line 250*/
+.nn-bullet-list .novotext ul li:before {
+background-color: #c72127;
+}
+/* line 253*/
+.poll-result-block .poll-percent .poll-percent-bar {
+background-color: #c72127;
+}
+/* line 256*/
+.expandable-block .expandable-block-header.title-icon h3 span {
+color: #c72127;
+}
+/* line 259*/
+.expandable-block .expandable-block-header.title-icon h3 .fa {
+color: #c72127;
+}
+/* line 262*/
+.news-archive-search-box h6 {
+color: #c72127;
+}
+/* line 265*/
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+background-color: #c72127;
+}
+/* line 268*/
+.scientific-publications-search-results .pagenate a#link_previous {
+color: #c72127;
+}
+/* line 271*/
+.scientific-publications-search-results .pagenate a#link_next {
+color: #c72127;
+}
+/* line 274*/
+.medium-text-image-box .desktop-sustainbility-header h2 {
+color: #c72127;
+}
+/* line 277*/
+.selected-partnerships-table h4 {
+color: #c72127;
+}
+/* line 280*/
+.sitemap.section > .text > .linkcontainer > .linkcontainer .sitemap-col > .linkcontainer > .link .expand-collapse-icon {
+color: #c72127;
+}
+/* line 283*/
+.small-social-media-block h5 {
+color: #c72127;
+}
+/* line 286*/
+.medium-article-block h2,
+.medium-article-block h3 {
+color: #c72127;
+}
+/* line 289*/
+.medium-article-block .article-text h4 {
+color: #c72127;
+}
+/* line 292*/
+.multipage_nav .multipage_next,
+.multipage_nav .multipage_back {
+color: #c72127;
+}
+/* line 295*/
+.event-calendar-search-box h6 {
+color: #c72127;
+}
+/* line 298*/
+.media-archive-search-box h6 {
+color: #c72127;
+}
+/*# sourceMappingURL=theme.css.map */
+
+/*CHANGES TO MAKE SAME LOOK AND FEEL START*/  
+
+.right-rail .small-summary-block .novotext p a:first-child{
+background: url("../images/nnhf-arrow_link_normal-dlpx.png") no-repeat left 4px; 
+color: #009FDA;
+padding-left: 15px;
+display: block;
+margin: 1px 0;
+}
+.right-rail .novotext p a{
+background: url("../images/nnhf-arrow_link_normal-dlpx.png") no-repeat left 4px; 
+color: #009fda;
+padding-left: 15px;
+display: block;
+margin: 1px 0;
+text-align: left;
+font-size: 11px;  
+}
+.right-rail .novotext p:last-child a{
+background: url("../images/nnhf-arrow_link_normal-dlpx.png") no-repeat left 4px; 
+color: #000;
+padding-left: 15px;
+display: block;
+margin: 1px 0;
+text-align: left;
+} 
+.right-rail .novotext p a:hover{
+text-decoration: underline;
+}
+.featureditems .small-summary-block .description p a{
+background: url("../images/nnhf-arrow_link_normal-dlpx.png") no-repeat left 4px;
+padding-left: 15px;
+color: #000;
+}
+.footer .footer-bottom a {
+background: url("../images/nnhf-arrow_link_normal-dlpx.png") no-repeat left 4px;   
+display: inline;
+padding-left: 15px;          
+margin: 0 70px 0 0;
+color: #000;
+}
+.footer .footer-bottom a:hover{
+color: #82786f;
+}
+.customstyles .customstyles_par .novotext p a{
+color:#009FDA;
+}
+.site-search-form{
+top: -64px;
+}
+.header .header-navigation .utility-nav{
+top: -62px;
+}
+.carousel .bx-controls .bx-controls-direction .bx-prev {
+background-image: url("../images/nnhf-nav-prev-dlpx.png");
+}
+.carousel .bx-controls .bx-controls-direction .bx-next {
+background-image: url("../images/nnhf-nav-next-dlpx.png");
+}
+.carousel .bx-controls .bx-pager .bx-pager-item a{
+background-image: url("../images/nnhf-nav-dots-sprite-dlpx.png");                                
+}
+
+.content-col .par_maincontent .novotext h5 b{
+color:#009fda;
+}
+.right-rail .novotext h3 a{
+background: url("../images/nnhf-arrow_link_normal-dlpx.png") no-repeat left 4px;   
+display: inline;
+padding-left: 15px;       
+} 
+.novotext b{
+color: #009fda !important;
+}
+.image{
+padding: 0 10px 10px 0;
+}   
+.multicolumn .col-sm-6{
+padding-right: 10px;
+}           
+.novotext ul li{
+padding-left: 0px;
+} 
+.header .header-navigation .main-nav li a{
+font-size: 14px;
+}      
+.header .header-navigation .main-nav li.active-tab > a{
+color: #c72127;
+}
+.redlink{
+background: url("../images/nnhf-arrow_link_normal-dlpx.png") no-repeat left 4px;   
+display: inline;
+padding-left: 15px; 
+color: #000 !important;
+}
+.blue-arrow-link{
+background: url("../images/nnhf-arrow_link_normal-dlpx.png") no-repeat scroll left 4px;  
+display: inline;
+padding-left: 15px; 
+color: #009fda !important;
+}
+.redcolorlink{
+color: #c72127 !important;
+}
+.bluecolorlink{
+color: #009fda !important;
+font-size: 11px;
+}
+.novotext b.redcolorlink{
+color: #c72127 !important;
+}
+.novotext b.greycolortext{
+color: #82786f !important;
+}        
+.novotext ul li::before{
+background-color: #82786f;
+width: 5px;
+height: 5px;
+top: 5px;
+content: none;
+}       
+li a{
+background: url("../images/nnhf-arrow_link_normal-dlpx.png") no-repeat left 4px;   
+display: inline-block;
+padding-left: 15px;
+color: #c72127;
+text-decoration: none;  
+}
+.header .header-navigation .utility-nav .utility-links li a {
+    background: none;
+}
+.mega-navigation .main-nav .main-nav-links li a{
+background: none;
+background-position: left center;
+padding-left: 15px;
+padding-top: 0;
+}
+.header .header-navigation .megamenu .megamenu-col {
+  padding: 0 20px 0 5px;
+}
+@media (max-width: 767px), print {
+    .mega-navigation .main-nav .main-nav-links li a{
+        /*margin-left: 10px;*/
+        background-position: left 18px;
+        padding: 11px 16px 4px;       
+    }
+    .mobile-main-back > a:hover{
+        text-decoration: none;
+    }   
+    .header .header-navigation a.expandable::after{
+        color:#c72127;
+    }
+    .expandable-block .expandable-block-header{
+        padding-top: 22px;
+    }
+    .expandable-block .expandable-block-header a:hover{
+        text-decoration: none;
+    }
+    .footer .footer-bottom a {
+        display: inline-block;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .site-search-form{
+        top: 15px;
+    }
+    .header .header-navigation .mobile-top-bar a.mobile-nav-home-button .fa{
+        color: #c72127;
+    }
+    .header .header-navigation .megamenu .megamenu-col {
+        padding: 0 20px 0 0;
+    }
+    .mobile-left-nav a.mobile-left-nav-current{ 
+    	background-color: #c72127; 
+    } 
+	.mobile-left-nav a.mobile-left-nav-current span:before{
+		color: #c72127;
+	}
+
+}
+.expandable-block .expandable-block-header a:hover{
+    text-decoration: none;
+}
+.social-nav li a{
+background: none;
+}
+.footer .footer-bottom a:hover{
+color: #c72127;
+}
+.footer .footer-bottom a:last-child {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #82786f;
+  /*cursor: text;*/
+    text-decoration: none;
+}
+.footer .footer-bottom a:last-child:hover {
+    color: #82786f;
+}
+
+.header .hamburger::before{
+color: #c72127;
+}   
+.header .header-navigation .mobile-top-bar a.mobile-close-nav-button{
+background-color: #c72127;
+}
+.content-col li a{
+    background: none;
+    padding: 0;
+}
+span.state:hover {
+    text-decoration: underline;
+}
+.small-summary-block .list-link span, .small-list-block .list-link span {
+    color: #009fda;
+}
+.list-link:hover{
+    text-decoration:none;
+}
+.small-summary-block .novotext h4 b{
+    color: #c72127 !important; 
+}
+.site-search-form button .fa{
+    color: #c72127;
+}   
+.center-img img{
+    margin: 0 auto;
+}
+
+/*CHANGES TO MAKE SAME LOOK AND FEEL ENDS*/

@@ -1,0 +1,8 @@
+$(document).ready(function() {
+    $(".cdb-box").hide();
+    $(".accordinHeader").click(function() {
+        $(".cdb-box").hide("slow");
+        $(this).next().show();
+        //$(this).next().slideToggle();
+    });    
+});
